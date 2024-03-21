@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+  background: #6dbbd0;
+  font-family: "Arial", sans-serif;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+}
+
+/* HEADER SECTION */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 15vh;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+header ul li {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+header ul img {
+  height: 1.5rem;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+/* LEFT SECTION */
+
+main .left {
+  display: grid;
+  grid-template-rows: 80% auto;
+  width: 35%;
+}
+
+main .left .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .left .top p {
+  writing-mode: vertical-lr;
+}
+
+main .left .top h1 {
+  font-size: 5rem;
+  margin-left: 2rem;
+}
+
+main .left .bottom {
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+main .left .bottom p {
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+
+main .left .bottom h3 {
+  font-size: rem;
+  margin-top: 0;
+}
+
+.limited {
+  position: absolute;
+  background-color: black;
+  color: #efefef;
+  padding: 0.6rem;
+  writing-mode: vertical-rl;
+  right: 0;
+  top: -27%;
+}
+
+/* RIGHT SECTION */
+
+main .right {
+  display: grid;
+  grid-template-rows: 80% auto;
+  width: 65%;
+}
+
+main .right img {
+  filter: drop-shadow(3px 5px 8px #fbe1aa);
+}
+
+main .right:hover img {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+main .right .top {
+  display: flex;
+  align-items: center;
+}
+
+main .right .top .b ul li {
+  list-style: none;
+}
+
+main .right .top .b {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .right .top .b h2 {
+  font-size: 3.5rem;
+}
+
+main .right .top .b ul {
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+main .right .bottom {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
