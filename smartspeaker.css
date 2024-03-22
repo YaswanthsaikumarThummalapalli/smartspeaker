@@ -109,10 +109,11 @@ main .right {
 }
 
 main .right img {
+  margin-left: 1.7rem;
   filter: drop-shadow(3px 5px 8px #fbe1aa);
 }
 
-main .right:hover img {
+main .right img:hover {
   transform: scale(1.1);
   transition: 0.5s ease-in-out;
 }
