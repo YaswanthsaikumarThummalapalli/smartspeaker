@@ -145,6 +145,13 @@ main .right .top .b ul {
   font-weight: 300;
 }
 
+main .right .top .b ul li{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+
 main .right .bottom {
   display: flex;
   justify-content: flex-end;
